@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto:wght@500&display=swap');
+
+
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+div {
+  background-color: white;
+  border: 1px solid transparent;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+}
+
+h1 {
+  font-size: 32px;
+}
+
+
+h2 {
+  font-size: 24px;
+
+}
+
+p {
+  font-size: 14px;
+}
+
+header {
+  background-color: white;
+  color: #333;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  height: auto;
+  padding-top: 10px;
+}
+
+.navbar .logo {
+  float: left;
+  margin-right: 5px;
+  box-sizing: border-box;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 0px;
+  width: 160px;
+  height: 80px;
+}
+
+.navbar a {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #774A22;
+  text-decoration: none;
+}
+
+.image1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  height: 300px;
+  width: 400px;
+}
+
+
+/* about css */
+/* contact css */
+
+
+
+/* Row, columns */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.col-1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+
+}
+
+.col-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+
+}
+
+.col-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+
+}
+
+.col-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+
+}
+
+.col-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+ 
+}
+
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+
+}
+
+.col-10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+
+}
+
+.col-11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+
+}
+
+.copyright {
+  text-align: center;
+  color: #774A22;
+}
+
+.sociallinks .img {
+  font-size: 14px;
+  color: #774A22;
+  height: 30px;
+  width: 30px;
+}
+
+.sociallinks {
+  height: 30px;
+  width: 30px;
+  font-size: 14px;
+
+}
+
+.social {
+  margin: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.image2 {
+  display: flex;
+  margin-top: 10px;
+  padding-top: 20px;
+  height: 500px;
+  width: 750px;
+}
+
+
+
+button {
+  border-radius: 5px;
+  border: 2px solid #774A22;
+  /* outline border */
+  background-color: #fff;
+  color: #774A22;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #774A22;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+  color: #774A22;
+}
+
+/* Contact */
+.contact-me {
+  font-size:18px; 
+  color:#774A22; 
+  margin-top:10px;
+}
+
+.form-mb-20 {
+  margin-bottom:20px;
+  height: 40px; 
+  width: 240px; 
+  border-radius: 5px; 
+  border-color: aliceblue;
+}
+
+/* Nutrition */
+.jumbotron {
+  background-color: #fff;
+  margin-bottom: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+
+}
+
+
+.image3 {
+  position: relative;
+  right: unset;
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.image4 {
+  position: relative;
+  right: unset;
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+}
+
+
+.image5 {
+  position: relative;
+  right: unset;
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+}
+
+
+.jumbotron-content {
+  padding: 50px;
+}
+.jumbotron ul li {
+  font-size: 16px;
+  list-style-type: square;
+}
+
+
+
+.jumbotron h1 {
+  font-size: 60px;
+  margin-top: 0;
+}
+
+.jumbotron h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  margin-left:40px;
+}
+
+.jumbotron p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron-content {
+    padding: 20px;
+  }
+  
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+  
+  .jumbotron p {
+    font-size: 16px;
+  }
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1140px; /* adjust this value based on your design */
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Rows */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px; /* this compensates for the padding on the container */
+}
+
+/* Columns */
+.col-1 { flex: 0 0 8.333333%; }
+.col-2 { flex: 0 0 16.666667%; }
+.col-3 { flex: 0 0 25%; }
+.col-4 { flex: 0 0 33.333333%; }
+.col-5 { flex: 0 0 41.666667%; }
+.col-6 { flex: 0 0 50%; }
+.col-7 { flex: 0 0 58.333333%; }
+.col-8 { flex: 0 0 66.666667%; }
+.col-9 { flex: 0 0 75%; }
+.col-10 { flex: 0 0 83.333333%; }
+.col-11 { flex: 0 0 91.666667%; }
+.col-12 { flex: 0 0 100%; }
+
+/* Responsive Utilities */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .row {
+    margin: -15px;
+  }
+
+  .col-sm-1 { flex: 0 0 8.333333%; }
+  .col-sm-2 { flex: 0 0 16.666667%; }
+  .col-sm-3 { flex: 0 0 25%; }
+  .col-sm-4 { flex: 0 0 33.333333%; }
+  .col-sm-5 { flex: 0 0 41.666667%; }
+  .col-sm-6 { flex: 0 0 50%; }
+  .col-sm-7 { flex: 0 0 58.333333%; }
+  .col-sm-8 { flex: 0 0 66.666667%; }
+  .col-sm-9 { flex: 0 0 75%; }
+  .col-sm-10 { flex: 0 0 83.333333%; }
+  .col-sm-11 { flex: 0 0 91.666667%; }
+  .col-sm-12 { flex: 0 0 100%; }
+}
+
+
+
+
